@@ -1,0 +1,277 @@
+/* Every Page */
+body{
+    font-family: "Lato", sans-serif;
+    padding: 20px 200px 20px 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: lightseagreen;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+/* header */
+.navbar{
+    display: none;
+}
+
+.headerlink{
+    float: right;
+}
+
+.logo{
+    float: left;
+    font-size: 24px;
+    font-weight: 900;
+    width: fit-content;
+}
+
+.iconimage{
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: bottom;
+}
+
+.headeranchor{
+    margin-left: 30px;
+}
+
+main{
+    min-height: 100vh;
+    margin-bottom: -200px;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+/* push method requires fixed footer height */
+footer, .push{
+    height: 200px;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.footercontent{
+    position:absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+}
+
+/* index style */
+.herocontent{
+    padding: 200px 0px 200px 0px;
+    text-align: center;
+}
+
+.heroimage{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.prattlink{
+    color: lightseagreen;
+}
+
+#resumebutton{
+    font-weight: bold;
+    color: white;
+    background-color: steelblue;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+/* play style */
+.title{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.projectimage{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px auto 20px auto;
+}
+
+.appvideo{
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.webvideo{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+/* aboutme style */
+.icon{
+    width: 50px;
+}
+
+.iconcontact{
+    max-width: 24px;
+    max-height: 24px;
+    vertical-align: bottom;
+}
+
+.whocontent{
+    margin: 100px 0px 50px 0px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: lightseagreen;
+    border-radius: 20px;
+}
+
+.nowcontent{
+    margin-bottom: 50px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: lightseagreen;
+    border-radius: 20px;
+}
+
+.nextcontent{
+    margin-bottom: 100px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: lightseagreen;
+    border-radius: 20px;
+}
+
+#aboutmecontent{
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+.contacts{
+    text-align: center;
+}
+
+/* attribution style */
+.maincontent{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.linkwrapper{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.iconlink{
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 500px){
+
+    body{
+        padding: 0px;
+    }
+
+    .logo, .headerlink{
+        display: none;
+    }
+
+    .navbar{
+        display: block;
+        background-color: lightgray;
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .navbutton, .navbuttonleft, .navbuttonright{
+        display: inline-block;
+    }
+
+    .navbuttonleft{
+        margin-right: 80px;
+    }
+
+    .navbuttonright{
+        margin-left: 80px;
+    }
+
+
+    .navicon{
+        width: 48px;
+        margin: 0px;
+        border-radius: 10px;
+    }
+
+    .navtext{
+        font-size: 8px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .herocontent{
+        padding: 100px 0px 100px 0px;
+    }
+
+    .projects{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
+    .title{
+        margin-top: 50px;
+    }
+
+    .linkwrapper{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+
+    .maincontent{
+        margin-top: 50px;
+    }
+
+    .footercontent{
+        bottom: 100px;
+    }
+}
