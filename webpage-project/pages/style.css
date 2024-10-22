@@ -266,4 +266,8 @@ footer{
     .maincontent{
         margin-top: 50px;
     }
+
+    .footercontent{
+        bottom: 100px;
+    }
 }
