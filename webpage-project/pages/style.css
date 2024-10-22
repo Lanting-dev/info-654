@@ -1,0 +1,163 @@
+/* Every Page */
+body{
+    font-family: "Lato", sans-serif;
+    padding: 20px 200px 20px 200px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: lightseagreen;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.headerlink{
+    float: right;
+}
+
+.logo{
+    float: left;
+    font-size: 24px;
+    font-weight: 900;
+    width: fit-content;
+}
+
+.iconimage{
+    height: 24px;
+    vertical-align: bottom;
+}
+
+.headeranchor{
+    margin-left: 30px;
+}
+
+main{
+    min-height: 100vh;
+    margin-bottom: -200px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 200px;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.projects{
+    margin: 200px;
+}
+
+.appvideo{
+    height: 400px;
+    margin: 50px;
+}
+
+.webvideo{
+    width: 500px;
+    margin: 50px;
+}
+
+/* push method requires fixed footer height */
+footer, .push{
+    height: 200px;
+}
+
+footer{
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.footercontent{
+    position:absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+}
+
+/* index style */
+.herocontent{
+    padding: 200px 0px 200px 0px;
+    text-align: center;
+}
+
+.heroimage{
+    width: 300px;
+}
+
+.prattlink{
+    color: lightseagreen;
+}
+
+#resumebutton{
+    font-weight: bold;
+    color: white;
+    background-color: steelblue;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+/* play style */
+.projectimage{
+    width: 500px;
+}
+
+/* aboutme style */
+.icon{
+    width: 50px;
+}
+
+.whocontent{
+    margin: 100px 0px 50px 0px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: lightseagreen;
+    border-radius: 20px;
+}
+
+.nowcontent{
+    margin-bottom: 50px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: lightseagreen;
+    border-radius: 20px;
+}
+
+.nextcontent{
+    margin-bottom: 100px;
+    padding: 50px;
+    border-style: dashed;
+    border-color: lightseagreen;
+    border-radius: 20px;
+}
+
+#aboutmecontent{
+    padding: 0px 100px 0px 100px;
+}
+
+.contacts{
+    text-align: center;
+}
+
+/* attribution style */
+.maincontent{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.iconlink{
+    width: 300px;
+}
