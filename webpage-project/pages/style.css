@@ -41,21 +41,13 @@ a:hover{
     margin-left: 30px;
 }
 
+/* Main */
 main{
     min-height: 100vh;
     margin-bottom: -200px;
 }
 
-ul{
-    display: inline-block;
-    text-align: left;
-}
-
-li{
-    margin-bottom: 20px;
-}
-
-/* push method requires fixed footer height */
+/* Footer (push method requires fixed footer height) */
 footer, .push{
     height: 200px;
 }
@@ -72,6 +64,16 @@ footer{
     bottom: 0px;
     left: 0px;
     font-size: 12px;
+}
+
+/* List */
+ul{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+    margin-bottom: 20px;
 }
 
 /* index style */
@@ -92,7 +94,7 @@ footer{
     color: lightseagreen;
 }
 
-#resumebutton{
+.resumebutton{
     font-weight: bold;
     color: white;
     background-color: steelblue;
@@ -102,7 +104,7 @@ footer{
 }
 
 /* play style */
-.title{
+#title{
     text-align: center;
     margin-top: 200px;
 }
@@ -213,6 +215,7 @@ table, th, td{
     height: auto;
 }
 
+/* RWD */
 @media screen and (max-width: 500px){
 
     body{
